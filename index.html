@@ -1,10 +1,37 @@
+<!--<html lang="es" class="dark"><head><base target="_blank">
+
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/papercss@latest/dist/paper.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <title>Mi espacio</title>
+  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+<script src="https://unpkg.com/aos@latest/dist/aos.js"></script>
+ AOS.init();
+ </script>
+    <div class="paper container">
+     <h3 data-aos="fade-right" data-aos-delay="500" class="aos-init aos-animate">Lógicamente,tenía que darle mi toque a la web.</h3> 
+<h3 data-aos="fade-left" data-aos-delay="1000" class="aos-init aos-animate">Me gusta dejar volar mi imaginación.
+Cada vez que le des a la imagen, habra otra nueva</h3>
+<button popover-top="Se generara una imagen nueva" class="btn-secondary-outline" onclick="window.location.reload()">
+<img data-aos="fade-up" data-aos-delay="1500" src="https://picsum.photos/200" class="aos-init">
+</button>
+    </div>
+  
+</body></html>
+
+
 <!DOCTYPE html>
 <html lang="es" class="dark">
-<head>
+<head>-->
     <!-- Librerías -->
     <link rel="stylesheet" href="https://unpkg.com/papercss@latest/dist/paper.css" />
     <script src="https://unpkg.com/aos@latest/dist/aos.js"></script>
-    
+    <script>
+    var style = document.createElement('style'), styleContent = document.createTextNode('* { cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmCQIREyWc36RXAAABqUlEQVRIx82UsUsbYRiHn8BBHTJkcLjRoUOm2qGgQwaHGzo6OGTMIOjY0cHNIePtOmRwEfIHCC5WTKHiEAqFFCw4dEjBodDrIKb06fAlhqgkd4ZCf7d8cPye733f38sH/4sSyvPZ5Q+XpKwTF7OWACjzc3gC+MJHzujwNT8ALnmTcssZHX6N/n2nwwfe85nfs0EpNg3qmlo3ltGXccL+rNbW8a2TurblttURJpkOiLHsU8pcEbmZPdwedp+w10R6ebJpYTqHHRpYf2B/VcAOLzGeABxZkjtq+ewAfby+v/3ITy6HEJO8gDa27osvuewP6yIDNvMB3uH2eHR3YSa7YQuaeQCvsTqefI0Md9WWkUibhVmAiIywNmHyCYPQ1KkVkfPZeZwwGdwmRp6qPZdErqhOB+w/WtomVuypfVfFiqxNA8Qkj8ps45J9NXMjZNLIG2vQAue4aqbqTshkrxgi5go3hit2EDI5JCqCqFbEnSHi2LJIl8UiiDUGeDBEXPhCZKtYIw2MPB5v6rei7zfsYdmLQm/EQx0Sin+mHSK6zyt+rEW25rH/C/0FtzCFnsfRVZQAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDktMDJUMTc6MTk6MzcrMDA6MDDt4D2FAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTA5LTAyVDE3OjE5OjM3KzAwOjAwnL2FOQAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyMi0wOS0wMlQxNzoxOTozNyswMDowMMuopOYAAAAASUVORK5CYII=) 22 22, auto !important}'); style.appendChild(styleContent ); var caput = document.getElementsByTagName('head'); caput[0].appendChild(style);
+    </script>
      <!-- Aquí se acaban las librerías -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,5 +43,28 @@
          AOS.init();
      </script>
      <!-- Fin AOS -->
+     <nav class="border fixed split-nav">
+        <div class="nav-brand">
+          <h3><a href="#">Get PaperCSS</a></h3>
+        </div>
+        <div class="collapsible">
+          <input id="collapsible1" type="checkbox" name="collapsible1">
+          <label for="collapsible1">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </label>
+          <div class="collapsible-body">
+            <ul class="inline">
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Github</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+     <div class="paper container">
+        <center><h3 data-aos="zoom-in-up" data-aos-duration="3000" data-aos-easing="linear">MDEMPRESA</h3></center>
+    </div>
 </body>
 </html>
